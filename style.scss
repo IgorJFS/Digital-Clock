@@ -1,0 +1,33 @@
+$backgroundColor : #000;
+$fontColor : #fff;
+$fontSize : 9rem;
+$fontFamily : monospace;
+$fontWeight : bold;
+
+body{
+    margin: 0;
+}
+#background-image{
+    background-color: $backgroundColor;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+#clock{
+    font-family: $fontFamily;
+    font-weight: $fontWeight;
+    text-align: center;
+    font-size: $fontSize;
+    color: $fontColor;
+    backdrop-filter: blur(1px);
+    background-color: hsla(0, 0%, 100%, 0.02);
+    width: 100%;
+}
